@@ -16,8 +16,8 @@
         // Example logic: alternating files based on the current time
         const now = new Date();
         // For this example, we switch files every minute
-        const minute = now.getMinutes();
-        return (minute % 2 === 0) ? 'foo1.html' : 'foo2.html';
+        const seconds = now.getSeconds();
+        return (seconds % 2 === 0) ? 'foo1.html' : 'foo2.html';
         
         // You can replace this logic with your own, based on your specific requirements
     }
