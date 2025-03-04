@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Popup Test</title>
+    <script type="text/javascript">
+        function openPopup() {
+            window.open('https://www.example.com', 'popupWindow', 'width=600,height=400,scrollbars=yes');
+        }
+
+        window.onload = function() {
+            // Wait for 2 seconds before opening the popup
+            openPopup()
+        };
+    </script>
+</head>
+<body>
+    <h1>Auto Popup Test</h1>
+    <p>This page will automatically open a popup window after 2 seconds.</p>
+    <p>If the popup does not open, please make sure your popup blocker is disabled or allows popups for this site.</p>
+</body>
+</html>
